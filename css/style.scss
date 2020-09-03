@@ -1,0 +1,42 @@
+@import "./fonts";
+body {
+    font-family: "IRANSans";
+    direction: rtl;
+}
+
+.header {
+    margin-top: 40px;
+    padding: 25px;
+    button {
+        color: green;
+    }
+    a {
+        color: green;
+        text-decoration: none;
+        &:hover {
+            color: rgb(78, 223, 78);
+        }
+    }
+}
+
+.image {
+    img {
+        width: 100%;
+    }
+}
+
+.help {
+    text-align: center;
+    font-size: larger;
+}
+
+.circles {
+    display: flex;
+    justify-content: space-around;
+    .circle {
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        background-color: rgb(136, 255, 0);
+    }
+}
